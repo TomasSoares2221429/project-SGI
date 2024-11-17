@@ -1,0 +1,192 @@
+header {
+  display: flex;
+  flex-direction: column; /* Permite empilhar os elementos em duas linhas */
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px 3px #00000033;
+  padding: 10px 20px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-content: space-between; /* Mantém os elementos separados horizontalmente */
+  margin-bottom: 5px; /* Reduzido para diminuir o espaço entre a barra de pesquisa e os botões */
+}
+
+.logo {
+  width: 120px;
+}
+
+.nav {
+  flex-grow: 1; /* Faz a barra de pesquisa ocupar espaço proporcional */
+  margin: 0 20px;
+}
+
+.bar {
+  display: flex;
+  align-items: center; /* Alinha os itens dentro da barra de pesquisa */
+  height: 40px;
+  border-radius: 25px;
+  background-color: #eaeaea;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.bar input {
+  flex-grow: 1; /* Faz o campo de entrada ocupar o espaço disponível */
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  border-radius: 25px;
+}
+
+.searchIcon {
+  height: 25px;
+  margin: auto auto auto 10px;
+}
+
+.search-bar {
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  color: #c3c3c3;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iconMenu {
+  height: 20px;
+  margin: auto;
+}
+
+.menu-container {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center; /* Centraliza os botões horizontalmente */
+  gap: 15px; /* Espaçamento entre os botões */
+}
+
+.button-menu,
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.button-menu {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.button-menu:hover {
+  background-color: #333333;
+}
+
+.white-text {
+  margin: auto;
+  justify-content: center;
+  font-family: "Poppins-Bold", Helvetica;
+
+  color: #ffffff;
+  font-size: 16px;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #f9f9f9;
+  color: #000000;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #d4d6d7;
+}
+
+.black-text {
+  margin: auto;
+  justify-content: center;
+  font-family: "Poppins-Bold", Helvetica;
+
+  color: #000000;
+  font-size: 16px;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.container-icon {
+  display: flex;
+  align-items: center; /* Alinha os ícones verticalmente */
+  gap: 15px; /* Espaçamento entre os elementos */
+}
+.container-icon-bellow {
+  display: flex;
+  align-items: center; /* Garante alinhamento vertical */
+  justify-content: flex-end; /* Mantém alinhado à direita */
+  padding: 0px 40px; /* Ajusta o espaçamento horizontal */
+  gap: 10px; /* Adiciona espaçamento entre os elementos */
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre ícone e texto */
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: #eaeaea;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.round-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.heart-icon,
+.basket-icon {
+  height: 25px; /* Ajusta o tamanho dos ícones */
+}
+
+.round-icon:hover,
+.user-icon:hover,
+.bar:hover {
+  box-shadow: 0px 4px 4px #00000060;
+}
+
+.heart-icon {
+  height: 40px;
+  margin: auto 10px auto 10px;
+}
+
+.basket-icon {
+  height: 38px;
+  margin: auto 10px auto 10px;
+}
+
+.dark-grey-text {
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #8f8f8f;
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0 5px;
+}
+
+.userIcon {
+  height: 30px;
+  margin-right: 10px;
+}
